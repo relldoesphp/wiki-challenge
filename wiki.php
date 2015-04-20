@@ -79,3 +79,8 @@ class currencyCalculator {
 	//Not sure how we would get this amount
 	$currencyClass->updateRates($amount);
 ?>
+/*
+//There will need to be something that makes sure that the values based to the converter are the correct type.
+//Also the db connection should be defined in a safer place than this file.
+//Should also log an php errors
+*/
